@@ -1,0 +1,46 @@
+.container {
+  margin: 50px;
+}
+
+.text {
+  background-color: lightgrey;
+  color: red;
+  width: fit-content;
+}
+
+.table {
+
+  border-collapse:collapse;
+}
+
+.topElem {
+  padding: 30px;
+}
+
+.timer {
+  visibility: visible;
+}
+
+.visible {
+  visibility: hidden;
+}
+
+.element {
+  padding: 10px;
+  border-bottom: 2px solid lightgrey;
+
+  text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: white;
+}
+
+tbody tr:nth-child(even) {
+  background-color: lightgray;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+}
