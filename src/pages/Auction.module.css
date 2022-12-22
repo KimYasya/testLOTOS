@@ -9,27 +9,22 @@
 }
 
 .table {
-
-  border-collapse:collapse;
+  border-collapse: collapse;
 }
 
 .topElem {
   padding: 30px;
 }
 
-.timer {
-  visibility: visible;
-}
-
-.visible {
-  visibility: hidden;
-}
-
 .element {
   padding: 10px;
   border-bottom: 2px solid lightgrey;
-
   text-align: center;
+}
+
+.userEdit {
+  display: flex;
+  flex-direction: column;
 }
 
 tbody tr:nth-child(odd) {
@@ -40,7 +35,14 @@ tbody tr:nth-child(even) {
   background-color: lightgray;
 }
 
-td {
+td, 
+th {
   padding: 10px;
   text-align: center;
+  width: 300px;
 }
+
+.tableMain {
+  text-align: left;
+}
+
